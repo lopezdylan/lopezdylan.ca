@@ -1,7 +1,7 @@
 // Importing ReactJS
 import React from 'react';
 // Importing ReactDOM
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import App from './App';
 import './index.css';
 
