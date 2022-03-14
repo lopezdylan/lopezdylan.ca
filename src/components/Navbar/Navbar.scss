@@ -17,6 +17,7 @@
     z-index: 2;
 }
 
+// Logo sizing and scaling
 .app__navbar-logo {
     display: flex;
     justify-content: flex-start;
@@ -24,13 +25,13 @@
     // Target img inside div with .app__navbar-logo class
 
     img {
-        width: 90px;
-        height: 44px;
-
+        margin-left: 10rem;
+        width: 110px;
+        height: 60px;
         // Media query for XL devices
         @media screen and (min-width: 2000px) {
-        width: 180px;
-        height: 88px;
+        width: 200px;
+        height: 100px;
         }
     }
 }
@@ -38,24 +39,24 @@
 .app__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
-
+  margin-right: 600px;
   list-style: none;
 
   li {
-        margin: 0 1rem;
+        margin: 0 1.5rem;
         // Change cursor to show it is a clickable link
         cursor: pointer;
 
         flex-direction: column;
 
         a {
-            color: var(--gray-color);
+            color: var(--dark-gray-color);
             text-decoration: none;
             flex-direction: column;
-
-            text-transform: uppercase;
+            font-size: 22px;
+            // text-transform: uppercase;
             font-weight: 500;
             // Adding in delay for changing text color on hover
             transition: all 0.3s ease-in-out;
