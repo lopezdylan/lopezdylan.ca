@@ -1,20 +1,26 @@
 import React from 'react';
-import { About, Footer, Header, Skills, Work } from './container';
+import { About, Contact, Header, Navbar, Projects, ScrollToTop, Skills} from './components';
 import { Navbar } from './components';
 import './App.scss';
 
 const App = () => {
-  return (
+  const [{ themeName }] = useContext(ThemeContext)
 
-    <div className="app">
-        <Navbar />
-        <Header />
+  return (
+    <div id='top' className={`${themeName} app`}>
+      <Header />
+
+      <main>
         <About />
-        <Work />        
-        <Skills />        
-        <Footer />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+
+      <ScrollToTop />
+      <Footer />
     </div>
   )
 }
 
-export default App;
+export default App
