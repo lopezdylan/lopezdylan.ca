@@ -1,6 +1,6 @@
 import React from 'react';
 // import { About, Contact, Header, Projects, ScrollToTop, Skills} from './components';
-import { About } from './components';
+import { About, Header} from './components';
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import './App.scss';
@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div id='top' className={`${themeName} app`}>
-      {/* <Header /> */}
+      <Header />
 
       <main>
         <About />
