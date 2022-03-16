@@ -18,6 +18,11 @@
   }
 }
 
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+}
+
 .app__header {
   flex: 1;
   width: 100%;
@@ -39,6 +44,10 @@
   @media screen and (max-width: 450px) {
     padding: 6rem 1rem 2rem;
   }
+}
+
+.about__name {
+  color: var(--secondary-color);
 }
 
 // Header containing intro text
@@ -70,12 +79,12 @@
   .badge-cmp,
   .tag-cmp {
     padding: 1rem 2rem;
-    background: var(--white-color);
+    // background: var(--white-color);
     border-radius: 15px;
     flex-direction: row;
     width: auto;
 
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   }
 
   .tag-cmp {

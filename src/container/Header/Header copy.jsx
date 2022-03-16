@@ -33,6 +33,7 @@ const Header = () => (
           <span>👋</span>
           {/* Introduction text on home page */}
           <div style={{ marginLeft: 20 }}>
+            <p className="p-text">Hi, I am</p>
             <h1 className="head-text">
               Hi, I am <span className='about__name'>Dylan Lopez</span>
             </h1>
@@ -54,22 +55,15 @@ const Header = () => (
       className="app__header-img"
     >
       {/* Personal photo */}
-      {/* <img src={images.profile} alt="profile_pic_bg" /> */}
+      <img src={images.profile} alt="profile_pic_bg" />
       {/* Animating background behind profile image*/}
-      {/* <motion.div
+      <motion.img
         whileInView={{ scale: [0, 1] }}     
         transition={{ duration: 1, ease: 'easeInOut' }}
+        src={images.circle} 
+        alt="profile_bg_circle"
         className="overlay_circle"
-      > */}
-      <div className="about center" >
-          <h1 className="head-text">
-            Hi, I am <span className='about__name'>Dylan Lopez</span>
-          </h1>
-          <p>
-            Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.
-          </p>
-        </div>
-      {/* </motion.div> */}
+      />
     </motion.div>
 
     <motion.div 
