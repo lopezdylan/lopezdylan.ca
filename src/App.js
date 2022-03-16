@@ -1,6 +1,5 @@
 import React from 'react';
-// import { Contact, , ScrollToTop, Skills} from './components';
-import { About, Header, Footer, Projects } from './components';
+import { About, Header, Footer, Projects, Skills, Contact, ScrollToTop } from './components';
 import { useContext } from 'react'
 import { ThemeContext } from './contexts/theme'
 import './App.scss';
@@ -14,12 +13,12 @@ const App = () => {
 
       <main>
         <About />
+        <Skills />
         <Projects />
-        {/* <Skills />
-        <Contact /> */}
+        <Contact />
       </main>
-{/* 
-      <ScrollToTop /> */}
+
+      <ScrollToTop /> 
       <Footer /> 
     </div>
   )

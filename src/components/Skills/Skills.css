@@ -1,0 +1,145 @@
+.skills__list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills__list-item {
+  margin: 0.5em;
+}
+
+div * i {
+  font-size: 70px;
+  margin: 5px;
+}
+
+div * p {
+    font-size: 15px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.skills__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 60px;
+  align-items: center;
+
+}
+div {
+  display: block;
+}
+
+.skills_tech {
+  margin: 10px;
+}
+
+.skills__header__margins {
+  margin-bottom: 20px;
+}
+
+.skills__sub__header {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .skills__box {
+    flex-wrap: nowrap;
+    font-size: 75px;
+  }
+}
+
+.javascript__icon {
+  color: #ffd845;
+}
+
+.python__icon {
+  color: #3774a7;
+}
+
+.mysql__icon {
+  color: #e54d26;
+}
+
+.html__icon {
+  color: #e54d26;
+}
+
+.css__icon {
+  color: #3d8fc6
+}
+
+.bash__icon {
+  color:#293036;
+}
+
+.dotnet__icon {
+  color:#512bd4;
+}
+
+.php__icon {
+  color:#777bb3;
+}
+
+.graphql__icon {
+  color:#e10098;
+}
+
+.cplusplus__icon {
+  color:#004482;
+}
+
+.django__icon {
+  color:#103e2e;
+}
+
+.laravel__icon {
+  color:#f35045;
+}
+
+.react__icon {
+  color:#61dafb;
+}
+
+.nodejs__icon {
+  color:#5b8763;
+}
+
+
+.bootstrap__icon {
+  color:#563e7c;
+}
+
+.rails__icon {
+  color:#cc0000;
+}
+
+.git__icon {
+  color:#f05033;
+}
+
+.ubuntu__icon {
+  color:#dd4814;
+}
+
+.vscode__icon {
+  color:#287db6;
+}
+
+.jupyter__icon {
+  color:#f37726;
+}
+
+
+
+
