@@ -19,7 +19,7 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
-
+    
     {project.sourceCode && (
       <a
         href={project.sourceCode}

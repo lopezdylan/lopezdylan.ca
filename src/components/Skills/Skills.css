@@ -16,6 +16,11 @@ div * i {
   margin: 5px;
 }
 
+.remove_margins {
+  margin: 0;
+  padding: 0;
+}
+
 div * p {
     font-size: 15px;
     display: block;
@@ -49,7 +54,7 @@ div {
 }
 
 .skills__sub__header {
-  margin-bottom: 20px;
+  font-weight:normal
 }
 
 @media screen and (min-width: 1000px) {
@@ -80,7 +85,7 @@ div {
 }
 
 .bash__icon {
-  color:#293036;
+  color:#39b34a;
 }
 
 .dotnet__icon {

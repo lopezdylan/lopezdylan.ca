@@ -23,6 +23,7 @@
 
 .about .link--icon {
   margin-right: 0.8em;
+  font-size: 25px;
 }
 
 .about .btn--outline {
@@ -34,4 +35,8 @@
     align-items: flex-start;
     margin-top: 2em;
   }
+}
+
+.about__link__margins {
+  margin: 10px;
 }

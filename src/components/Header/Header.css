@@ -11,3 +11,9 @@
     height: 6em;
   }
 }
+
+.header__logo {
+  width: 30%;
+  height: 30%;
+  margin-top: 30px;
+}

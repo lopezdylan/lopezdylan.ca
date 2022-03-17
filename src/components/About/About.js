@@ -1,4 +1,4 @@
-import { BsTwitter, BsInstagram } from 'react-icons/bs';
+import { SiGithub, SiLinkedin } from 'react-icons/si';
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -24,7 +24,8 @@ const About = () => {
             </span>
           </a>
         )}
-
+      </div>
+      <div className='about__link__margins'>
         {social && (
           <>
             {social.github && (
@@ -33,7 +34,7 @@ const About = () => {
                 aria-label='github'
                 className='link link--icon'
               >
-                <BsTwitter />
+                <SiGithub />
               </a>
             )}
 
@@ -43,7 +44,7 @@ const About = () => {
                 aria-label='linkedin'
                 className='link link--icon'
               >
-                <BsInstagram />
+                <SiLinkedin />
               </a>
             )}
           </>

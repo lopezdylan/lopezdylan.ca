@@ -1,7 +1,7 @@
-import uniqid from 'uniqid'
-import { skills } from '../../portfolio'
+// import uniqid from 'uniqid'
+// import { skills } from '../../portfolio'
 import './Skills.css'
-import { DiPython, DiNodejsSmall } from 'react-icons/di';
+import {  DiNodejsSmall } from 'react-icons/di';
 import { 
   SiPython, 
   SiJavascript, 
@@ -10,8 +10,6 @@ import {
   SiCss3, 
   SiBootstrap, 
   SiMysql, 
-  SiPostgresql, 
-  SiExpress,
   SiGit,
   SiUbuntu,
   SiVisualstudio,
@@ -23,11 +21,12 @@ import {
   SiLaravel,
   SiRubyonrails,
   SiJupyter,
-  SiGnubash
+  SiGnubash,
 } from 'react-icons/si';
-import { images } from '../../constants'; 
 
 const Skills = () => {
+
+  // const { description } = skills
 
   return (
     <section className='section skills' id='skills'>
@@ -36,23 +35,23 @@ const Skills = () => {
       <div className='skills__box'>
         <div className='skills_tech'>
           <h3>Languages</h3>
-          <h4>Proficient</h4>
+          <h4 className='skills__sub__header'>Proficient</h4>
           <i className='python__icon'><SiPython fontSize='large'/></i>
           <i className='javascript__icon'><SiJavascript fontSize='large' /></i>
           <i className='mysql__icon'><SiMysql fontSize='large' /></i>           
           <i className='html__icon'><SiHtml5 fontSize='large' /></i>
           <i className='css__icon'><SiCss3 fontSize='large' /></i>
           <i className='bash__icon'><SiGnubash fontSize='large' /></i>
-          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
+          <p>My preferred languages that I frequently use and am proficient in. The majority of my time off work is practicing and utilizng these technologies. </p>
         </div>
         <div className='skills_tech'>
           <h3>Languages</h3>
-          <h4>Familiar</h4>
+          <h4 className='skills__sub__header'>Familiar</h4>
           <i className='dotnet__icon'><SiDotnet fontSize='large' /></i>
           <i className='php__icon'><SiPhp fontSize='large' /></i>
           <i className='graphql__icon'><SiGraphql fontSize='large' /></i>
           <i className='cplusplus__icon'><SiCplusplus fontSize='large' /></i>
-          <p>My preferred technologies for front-end web development and component design.</p>          
+          <p>Languages that I have exposure to through coursework or through projects with other developers. </p>          
         </div>
         <div className='skills_tech'>
           <h3>Libraries &amp; Frameworks</h3>
@@ -62,7 +61,8 @@ const Skills = () => {
           <i className='nodejs__icon'><DiNodejsSmall fontSize='large' /></i>
           <i className='bootstrap__icon'><SiBootstrap fontSize='large' /></i>
           <i className='rails__icon'><SiRubyonrails fontSize='large' /></i>
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
+          <p>Libraries and frameworks that I've utilized frequently and am growing to become more comfortable with.</p>
+          {/* <p>Currently have the most utilization with Laravel from work experience and personal project. Currently have dedicated a significant amount of time to learning and becoming proficient in Django and React.</p> */}
         </div>
         <div className='skills_tech'>
           <h3 className='skills__header__margins'>Tools</h3>
@@ -70,7 +70,7 @@ const Skills = () => {
           <i className='ubuntu__icon'><SiUbuntu fontSize='large' /></i>
           <i className='vscode__icon'><SiVisualstudio fontSize='large' /></i>
           <i className='jupyter__icon'><SiJupyter fontSize='large' /></i>
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>          
+          <p>My favorite operating system and tools that I use daily and feel comfortable using.</p>                      
         </div>
       </div>
 
