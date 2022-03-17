@@ -12,8 +12,11 @@
 }
 
 .about__desc {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 600px;
+  margin: 0px;
+  padding: 0px;
+  
 }
 
 .about__desc,

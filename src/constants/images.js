@@ -15,7 +15,23 @@ import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 
 
-export default {
+// export default {
+//     logo01,
+//     profile,
+//     circle,
+//     css,
+//     git,
+//     graphql,
+//     html,
+//     javascript,
+//     node,
+//     python,
+//     react,
+//     redux,
+//     sass,
+// };
+
+const images = {
     logo01,
     profile,
     circle,
@@ -30,3 +46,5 @@ export default {
     redux,
     sass,
 };
+
+export default images;

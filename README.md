@@ -1,28 +1,31 @@
-# Getting Started with Create React App
+# Welcome to My Front Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Keep checking back as this portfolio not only acts as a medium for me to practice and discover new technologies, but it also showcases what I'm currently working on. Expect weekly updates! And maybe some 404s and 503s...
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ## TO-DO
 ### Core
-- Add Contact Me form
-- Implement React router
-- Implement route for resume page
-- Convert resume in Latex to HTML and make responsive
-- Redesign Projects component
-- Review font for accessibility 
+- [] Add statuses and corresponding icons
+- [] Add Contact Me form
+- [] Implement React router
+- [] Implement route for resume page
+- [] Convert resume in Latex to HTML and make responsive
+- [] Redisgn skills component to include captions for non-developer visitors
+- [] Redesign Projects component
+- [] Review font for accessibility 
+- [] Learn more anchor that redirects to 'More about me' page
+
 
 ### Nice to Haves
-- Theme options in nav bar
-- Color theme for accessibility
+- [] Theme options in nav bar
+- [] Color theme for accessibility
+- [] Implement change log page
+- [] Impletment website task list 
+- [] SEO optimization
+- [] Implement ityped into the about component
+
+## Look Into
+### CMS
+- Sanity 
+- Netlify
+- Contentful
