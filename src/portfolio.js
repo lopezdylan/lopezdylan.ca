@@ -20,7 +20,7 @@ const projects = [
   {
     name: 'Portfolio v1',
     description:
-      "A medium for me to practice and discover new technologies, showcase what I'm currently working and you can reach me,",
+      "A medium for me to practice and discover new technologies, and for me to showcase what I'm capable of and currently working on.",
     stack: ['JavaScript', 'ReactJS', 'HTML', 'CSS'],
     sourceCode: 'https://github.com/lopezdylan/lopezdylan.ca',
     livePreview: 'https://github.com',
@@ -60,7 +60,8 @@ const projects = [
 ]
 
 const skills = [
-
+  'JavaScript',
+  'Python'
 ]
 
 const contact = {

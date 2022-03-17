@@ -1,4 +1,4 @@
-# Welcome to My Front Page
+# Forever 'In Progress'
 
 Keep checking back as this portfolio not only acts as a medium for me to practice and discover new technologies, but it also showcases what I'm currently working on. Expect weekly updates! And maybe some 404s and 503s...
 
