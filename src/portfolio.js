@@ -28,7 +28,7 @@ const projects = [
   {
     name: 'Springfree HR Management System',
     description:
-      'A HRMS created in collaboration and tailored for the Human Resources Department at Springfree Trampoline',
+      'A HRMS created in collaboration and tailored for the Human Resources Department at Springfree Trampoline.',
     stack: ['Laravel', 'MySQL', 'Vue'], 
     // sourceCode: 'https://github.com/lopezdylan/lopezdylan.ca',
     // livePreview: 'https://github.com',
@@ -44,7 +44,7 @@ const projects = [
   {
     name: 'QRide',
     description:
-      'Auto-generate QR codes to place on bicycles to crowd source the fight against bike thefts. Users can scan the QR code and the web app will notfify the user if it has been stolen or not.',
+      'Auto-generate QR codes to place on bicycles to crowd source the fight against bike theifs. Users can scan the QR code and the web app will notfify the user if the bike has been stolen or not.',
     stack: ['Django', 'ReactJS', 'MySQL'],
     // sourceCode: 'https://github.com',
     // livePreview: 'https://github.com',
@@ -52,7 +52,7 @@ const projects = [
   {
     name: 'Cloud Rumble',
     description:
-      "Self-hosted cloud storage hosted on an Unraid server and within a Docker container. Opened through public a port through Let's Encrypt",
+      "Self-hosted cloud storage hosted on an Unraid server and within a Docker container. Opened to a public port through Let's Encrypt.",
     stack: ['Unraid', "Let's Encrypt", 'Linux', 'Docker'],
     // sourceCode: 'https://github.com',
     livePreview: 'https://share.cloudrumble.ca/',
