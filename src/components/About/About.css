@@ -21,7 +21,8 @@
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 3.4em;
+  align-items: center;
 }
 
 .about .link--icon {
@@ -35,11 +36,17 @@
 
 @media (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
+    align-items: center;
     margin-top: 2em;
   }
 }
 
 .about__link__margins {
-  margin: 10px;
+  margin: 30px;
+}
+
+.about__center__div {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
