@@ -9,7 +9,7 @@ const about = {
   description:
     'Being a developer calls to all my passions; it incorporates creativity, problem solving, provides an endless supply of tools to learn and build with and gives me the power to potentially create something meaningful. If there’s one thing that I’m sure of, it’s that this is what I was meant to do.',
   closingDescription: "Currently looking to tailor my growth and to constantly prove my enthusiastic commitment toward a company that I truly believe in.",
-  resume: 'https://share.cloudrumble.ca/s/ntPXZ5YWRF4o3LP',
+  resume: 'https://share.cloudrumble.ca/s/rGyo6GRxjj34tM5',
   social: {
     linkedin: 'https://www.linkedin.com/in/lopezdylan/',
     github: 'https://github.com/lopezdylan',
